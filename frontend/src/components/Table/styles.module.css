@@ -1,0 +1,107 @@
+/* styles.module.css */
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	background-color: white;
+	border-radius: 4px;
+  }
+  
+  .name_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 2;
+	text-align: left;
+	margin-left: 20px;
+  }
+  
+  .Cuisines_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+  }
+  
+  .rating_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+  }
+  
+  .restaurant {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	margin: 5px 10px;
+	box-shadow: var(--box-shadow);
+	cursor: pointer;
+	transition: all 0.1s ease;
+	background-color: white;
+	border-radius: 4px;
+  }
+  
+  .restaurant:hover {
+	scale: 1.01;
+  }
+  
+  .name_container {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+  }
+  
+  .restaurant_img {
+	width: 40px;
+	height: 60px;
+	object-fit: contain;
+	margin: 0 10px;
+  }
+  
+  .restaurant_name {
+	font-size: 16px;
+	font-weight: 500;
+  }
+  
+  .Cuisines_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start; /* Changed from 'center' to 'flex-start' */
+	flex-wrap: wrap; /* Allow wrapping of multiple cuisines */
+	margin-left: 10px; /* Added margin */
+  }
+  
+  .restaurant_Cuisines {
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 5px; /* Added margin between cuisines */
+  }
+  
+  .rating_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .star_img {
+	width: 25px;
+	height: 25px;
+	margin-right: 4px;
+  }
+  
+  .restaurant_rating {
+	font-size: 16px;
+	font-weight: 400;
+  }
+  
